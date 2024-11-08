@@ -11,9 +11,16 @@
     padding: 0;
 }
 /* ricordarsi di impostare in flex il body e impostare flex direction column-reverse per spingere in basso il footer*/
+
+
 body {
     font-family: "Gabarito", sans-serif;
+    height: 100vh;
+    background-color: #1f2937;
 }
+
+/* <---- style for the header section -----> */
+
 
 .intestazione {
     display: flex;
@@ -38,7 +45,45 @@ ul {
 }
 
 ul li a {
+    font-size: 18px;
     text-decoration: none;
     color: #f9faf8;
     margin-left: 20px;
+    cursor: pointer;
+}
+
+/* <---- style header finish ----> */
+
+
+/* style hero-section */
+
+
+.hero-section {
+    margin: 30px auto;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+
+.sub-hero-01 {
+    padding: 30px;
+    display: flex;
+    
+    flex-direction: column;
+    max-width: 400px;
+    flex-shrink: 1;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+img {
+    padding: 25px;
+    
 }

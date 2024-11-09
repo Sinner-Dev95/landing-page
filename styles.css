@@ -131,6 +131,8 @@ img {
 
 }
 
+
+
 .card-container {
   padding: 10px;
   text-align: center;
@@ -141,10 +143,28 @@ img {
   gap: 30px;
 }
 
+.card-section-title {
+  font-size: 36px;
+}
+
 .card {
+  
+  padding: 20px;
   min-width: 200px;
   max-width:350px;
   border: 1px solid red;
   border-radius: 10px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+
+.card a {
+  text-decoration: none;
+  color: #1f2937;
+  margin: 20px;
+
 }
 

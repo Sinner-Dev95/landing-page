@@ -103,6 +103,7 @@ ul li a:hover {
 img {
     border-radius: 20px;
     flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
 
 .button-signup {
@@ -122,12 +123,13 @@ img {
 
 .card-section {
   background-color: #f9faf8;
-  padding: 30px;
+  
+  padding: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 
 }
 
@@ -135,12 +137,13 @@ img {
 
 .card-container {
   padding: 10px;
+  margin-bottom: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 40px;
 }
 
 .card-section-title {
@@ -149,11 +152,13 @@ img {
 
 .card {
   
-  padding: 20px;
+  padding: 40px 40px;
   min-width: 200px;
   max-width:350px;
-  border: 1px solid red;
+  border: 3px solid #3882f6;
   border-radius: 10px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* ombra morbida */
 }
 
 .card-title {
@@ -164,7 +169,45 @@ img {
 .card a {
   text-decoration: none;
   color: #1f2937;
-  margin: 20px;
+  margin-bottom: 20px;
 
+}
+
+/* <--- end style card-section ----> */
+
+
+.quote {
+flex: 1;
+
+  width: auto;
+
+  height: 800px;
+  background-color: #e5e7eb;
+
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  
+  padding: 50px;
+
+}
+
+.text-quote {
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+    padding: 30px 60px;
+  
+}
+
+.quote-p {
+  font-weight: lighter;
+}
+
+.quote-signature {
+  font-weight: bold;
+  font-size: 1rem;
+  align-self: end;
 }
 

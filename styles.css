@@ -212,5 +212,18 @@ flex: 1;
   font-weight: bold;
   font-size: 1rem;
   align-self: end;
+
+  /* style call-to-action */
+
+
+}/* style footer */
+
+.footer {
+  padding: 25px;
+  color: #f9faf8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 

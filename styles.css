@@ -211,17 +211,72 @@ flex: 1;
 .quote-signature {
   font-weight: bold;
   font-size: 1rem;
-  align-self: end;
+  align-self: end;}
 
   /* style call-to-action */
 
 
-}/* style footer */
+  .call-to-action {
+    background-color: #f9faf8;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+
+  .action {
+    padding: 40px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text, .button-call {
+    padding: 30px;
+    flex: 1;
+    
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .button-call {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  button {
+    padding: 10px 30px;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    
+  }
+
+  .link-signup {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 22px;
+  }
+
+ 
+/* style footer */
 
 .footer {
   padding: 25px;
   color: #f9faf8;
-
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
